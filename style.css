@@ -10,7 +10,7 @@ body {
 hr {
   width: 4%;
   height: 5px;
-  background-color: #ff4c29;
+  background-color: #ff4c29; /* Warna default untuk garis */
   opacity: 1;
   border: none;
   border-radius: 10px;
@@ -59,7 +59,7 @@ hr {
 }
 
 .btn-orange:hover {
-  background-color: #082032;
+  background-color: #082032; /* Warna berubah saat dihover */
   color: white;
 }
 
@@ -74,7 +74,7 @@ hr {
 }
 
 .btn-navy:hover {
-  background-color: #334756;
+  background-color: #334756; /* Warna berubah saat dihover */
   color: white;
 }
 
@@ -82,7 +82,6 @@ hr {
   background-color: #334756 !important;
   color: #ff4c29 !important;
 }
-
 /* end btn */
 
 /* header */
@@ -130,14 +129,20 @@ hr {
 }
 /* end footer */
 
+/* ... (Kode CSS sebelumnya) ... */
+
+/* ... (Kode CSS sebelumnya) ... */
+
 @media screen and (max-width: 576px) {
   hr {
-    background-color: #ff0000;
+    background-color: #b7ff01; /* Warna hijau pada tampilan mobile */
   }
 
   /* jumbotron */
   .jumbotron {
     text-align: center;
+    background-color: #9dde11; /* Warna hijau pada tampilan mobile */
+    padding: 100px 0px; /* Mengurangi padding untuk tampilan mobile */
   }
   .pesan {
     text-align: center;
@@ -146,42 +151,42 @@ hr {
 
   /* color */
   .bg-navy {
-    background-color: #000000;
+    background-color: #00ff00; /* Warna hijau pada tampilan mobile */
     color: white;
   }
 
   .bg-spacedark {
-    background-color: #3d0000;
+    background-color: #3d0000; /* Warna berubah pada tampilan mobile */
     color: white;
   }
 
   .bg-spacegray {
-    background-color: #950101;
+    background-color: #950101; /* Warna berubah pada tampilan mobile */
     color: white;
   }
 
   .bg-orange {
-    background-color: #ff0000;
+    background-color: #ff0000; /* Warna berubah pada tampilan mobile */
     color: white;
   }
 
   .text-orange {
-    color: #ff0000;
+    color: #ff0000; /* Warna berubah pada tampilan mobile */
   }
 
   .text-navy {
-    color: #000000;
+    color: #000000; /* Warna berubah pada tampilan mobile */
   }
   /* end color */
 
   /* btn */
   .btn-orange {
-    background-color: #ff0000;
+    background-color: #ff0000; /* Warna berubah pada tampilan mobile */
     color: white;
   }
 
   .btn-orange:hover {
-    background-color: #000000;
+    background-color: #000000; /* Warna berubah saat dihover pada tampilan mobile */
     color: white;
   }
 
@@ -191,12 +196,12 @@ hr {
   }
 
   .btn-navy {
-    background-color: #000000;
+    background-color: #000000; /* Warna berubah pada tampilan mobile */
     color: white;
   }
 
   .btn-navy:hover {
-    background-color: #950101;
+    background-color: #950101; /* Warna berubah saat dihover pada tampilan mobile */
     color: white;
   }
 
@@ -211,3 +216,5 @@ hr {
   }
   /* end header */
 }
+
+
